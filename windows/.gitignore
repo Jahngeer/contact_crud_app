@@ -1,0 +1,61 @@
+# Flutter/Dart related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android related
+**/android/app/src/main/res/generated/
+**/android/app/src/main/res/values/generated.xml
+**/android/key.properties
+.gradle/
+captures/
+**/android/gen/
+**/android/out/
+
+# iOS/macOS related
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+Pods/
+.bundle/
+
+# Web related
+.dart_tool/chrome-device/
+
+# IDE/Editor related
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Visual Studio (Aapki purani file se)
+flutter/ephemeral/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+x64/
+x86/
+*.[Cc]ache
+!*.[Cc]ache/
