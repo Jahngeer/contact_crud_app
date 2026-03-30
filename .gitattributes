@@ -1,0 +1,12 @@
+# Har jagah se C++ aur native files ko hide karo
+**/*.cpp linguist-vendored
+**/*.h linguist-vendored
+**/*.cc linguist-vendored
+**/*.cmake linguist-vendored
+**/*.kt linguist-vendored
+**/*.swift linguist-vendored
+
+# Folders ko bhi vendor mark kar den
+android/* linguist-vendored
+windows/* linguist-vendored
+ios/* linguist-vendored
