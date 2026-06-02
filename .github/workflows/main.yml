@@ -43,4 +43,4 @@ jobs:
           prerelease: false
           files: build/app/outputs/flutter-apk/app-release.apk
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Yeh hai aapka built-in token!
+          GITHUB_TOKEN: ${{ secrets.TOKEN }} # Yeh hai aapka built-in token!
